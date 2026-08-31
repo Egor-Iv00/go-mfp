@@ -5,6 +5,7 @@ go 1.21
 require (
 	github.com/OpenPrinting/go-avahi v0.0.0-20260812135728-151f3263d093
 	github.com/OpenPrinting/goipp v1.2.1-0.20260630192304-61012e2ae9bf
+	github.com/godbus/dbus/v5 v5.2.2
 	github.com/google/go-cmp v0.6.0
 	github.com/kr/pretty v0.3.1
 	github.com/thepudds/patience-diff v0.0.0-20220218194023-f6376aca9d74

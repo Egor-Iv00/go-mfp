@@ -30,9 +30,20 @@ var Command = argv.Command{
 			Aliases: []string{"--verbose"},
 			Help:    "Enable verbose debug output",
 		},
+		argv.Option{
+			Name:    "-ip",
+			Aliases: []string{"--ip"},
+			HelpArg: "IP adress with a port",
+		},
+		argv.Option{
+			Name:    "-b",
+			Aliases: []string{"--busid"},
+			HelpArg: "Busid for usbip",
+		},
 		argv.HelpOption,
 	},
 	SubCommands: []argv.Command{
+		cmdAuto,
 		cmdList,
 		argv.HelpCommand,
 	},
